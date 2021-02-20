@@ -1,0 +1,9 @@
+version: '3'
+services:
+  api:
+    container_name: "docker-websocket-1"
+    build: .
+    ports:
+      - 8080:8000
+    volumes:
+      - ./app:/usr/src/app
