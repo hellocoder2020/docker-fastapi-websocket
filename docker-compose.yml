@@ -1,7 +1,7 @@
 version: '3'
 services:
   api:
-    container_name: "docker-websocket-1"
+    container_name: "docker-fastapi-websocket"
     build: .
     ports:
       - 8080:8000
